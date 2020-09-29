@@ -8,19 +8,21 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              https://peterhegman.com/
+ * @link              https://rosswintle.uk/
  * @since             1.0.0
  * @package           Wp_Laravel_Dd
  *
  * @wordpress-plugin
  * Plugin Name:       Laravel DD for Wordpress
  * Plugin URI:
- * Description:       Use Laravel's dd() (die dump) function in your Wordpress projects
- * Version:           1.0.1
- * Author:            Peter Hegman
- * Author URI:        https://peterhegman.com/
- * License:           GPL-2.0+
- * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * Description:       Use Laravel's dump() and dd() (die dump) function in your WordPress projects
+ * Version:           2.0.0
+ * Requires at least: 5.5
+ * Requires PHP:      7.2.5
+ * Author:            Ross Wintle based on work by Peter Hegman
+ * Author URI:        https://rosswintle.uk/
+ * License:           MIT
+ * License URI:       https://mit-license.org/
  * Text Domain:       wp-laravel-dd
  * Domain Path:       /languages
  */
@@ -65,5 +67,20 @@ if (! function_exists('dd')) {
         }, func_get_args());
 
         die(1);
+    }
+}
+
+if (!function_exists('dump')) {
+    /**
+     * Dump the passed variables
+     *
+     * @param  mixed
+     * @return void
+     */
+    function dump()
+    {
+        array_map(function ($x) {
+            (new PeterHegman\Dumper)->dump($x);
+        }, func_get_args());
     }
 }
