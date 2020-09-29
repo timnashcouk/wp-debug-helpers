@@ -6,6 +6,10 @@
         {
             "name": "Peter Hegman",
             "email": "phegman@icloud.com"
+        },
+        {
+            "name": "Ross Wintle",
+            "email": "ross@oikos.digital"
         }
     ],
     "autoload": {
@@ -14,6 +18,6 @@
         }
     },
     "require": {
-        "symfony/var-dumper": "3.1.*"
+        "symfony/var-dumper": "5.1.*"
     }
 }
