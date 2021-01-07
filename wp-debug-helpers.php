@@ -104,6 +104,7 @@ if (!function_exists('backtrace')) {
 		ob_end_clean();
 		//Remove the first method, because its this one!
 		$t = preg_replace ('/^#0\s+' . __FUNCTION__ . "[^\n]*\n/", '', $t, 1);
+		//very hacky should have its own formatter
 		(new PeterHegman\Dumper)->dump($t);
 	}
 }
