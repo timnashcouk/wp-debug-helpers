@@ -16,7 +16,24 @@ Multiple functions just to make debugging easier:
 
 [`dc()`] - Print out response to the Browser Console rather then directly to the screen
 
-[`backtrace()`] - Print out the current backtrace/stacktrace without requiring an exception error to be thrown. 
+[`backtrace()`] - Print out the current backtrace/stacktrace without requiring an exception error to be thrown.
+
+== Ray support ==
+If using [Ray](https://myray.app/) by Spatie, you can drop in a ray.php at any location with the following default configuration:
+```
+<?php
+return array(
+		/*
+		 *  The host used to communicate with the Ray app.
+		 */
+		'host' => 'localhost',
+
+		/*
+		 *  The port number used to communicate with the Ray app.
+		 */
+		'port' => 23517,
+);
+```
 
 == Installation ==
 

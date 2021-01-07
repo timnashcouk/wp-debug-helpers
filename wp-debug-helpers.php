@@ -3,7 +3,7 @@
 /**
  * Plugin Name:       WP Debug Helpers
  * Description:       Add helpful Debug with Code pinched from Ross Wintle/Peter Hegman
- * Version:           1.0.0
+ * Version:           1.1.0
  * Requires PHP:      7.2.5
  * Author:            Tim Nash based on work by Peter Hegman & Ross Wintle
  * Author URI:        https://timnash.co.uk/
