@@ -1,4 +1,4 @@
-=== WP Debug Helpers ===
+## WP Debug Helpers
 Contributors: tnash, magicroundabout, phegman
 Tags: debug, die, dump, var-dumper, laravel, dev tools
 Requires at least: 5.5.0
@@ -8,7 +8,7 @@ License URI: https://mit-license.org/
 
 Basic Debugging options
 
-== Description ==
+### Description
 Multiple functions just to make debugging easier:
 
 [`dd()`] - Use Laravel's [`dd()`](https://laravel.com/docs/5.4/helpers#method-dd) (die dump) function in your Wordpress projects. Perfect for debuging custom queries! Laravel's `dd()` function is built on top of the [Symfony VarDumper component](http://symfony.com/doc/current/components/var_dumper.html)
@@ -18,7 +18,7 @@ Multiple functions just to make debugging easier:
 
 [`backtrace()`] - Print out the current backtrace/stacktrace without requiring an exception error to be thrown.
 
-== Ray support ==
+### Ray support
 If using [Ray](https://myray.app/) by Spatie, you can drop in a ray.php at any location with the following default configuration:
 ```
 <?php
@@ -35,7 +35,7 @@ return array(
 );
 ```
 
-== Installation ==
+### Installation
 
 1.  Install via Github and place in /wp-content/plugins directory
 2.  Activate the plugin through the \'Plugins\' menu in WordPress
