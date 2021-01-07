@@ -5,10 +5,13 @@ Requires at least: 5.5.0\
 Tested up to: 5.5.0\
 License: MIT\
 License URI: https://mit-license.org/\
-\
+
+
 Basic Debugging options\
-\
+
 ### Description
+Little helper production for use in local installs, to make debugging a little easier, mainly bits pinched from Laravel World, also with support for Spatie Ray desktop companion. combine it with [WPS](https://github.com/Rarst/wps) a WordPress helper for Whoops for a much better development experience
+
 Multiple functions just to make debugging easier:
 
 [`dd()`] - Use Laravel's [`dd()`](https://laravel.com/docs/5.4/helpers#method-dd) (die dump) function in your Wordpress projects. Perfect for debuging custom queries! Laravel's `dd()` function is built on top of the [Symfony VarDumper component](http://symfony.com/doc/current/components/var_dumper.html)
