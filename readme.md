@@ -10,7 +10,7 @@ License URI: https://mit-license.org/\
 Basic Debugging options\
 
 ### Description
-Little helper production for use in local installs, to make debugging a little easier, mainly bits pinched from Laravel World, also with support for Spatie Ray desktop companion. combine it with [WPS](https://github.com/Rarst/wps) a WordPress helper for Whoops for a much better development experience
+Little helper plugin for development and for use in local installs ONLY, to make debugging a little easier, mainly bits pinched from Laravel World, also with support for Spatie Ray desktop companion. combine it with [WPS](https://github.com/Rarst/wps) a WordPress helper for Whoops for a much better development experience
 
 Multiple functions just to make debugging easier:
 
