@@ -1,13 +1,13 @@
 ## WP Debug Helpers
-Contributors: tnash, magicroundabout, phegman
-Tags: debug, die, dump, var-dumper, laravel, dev tools
-Requires at least: 5.5.0
-Tested up to: 5.5.0
-License: MIT
-License URI: https://mit-license.org/
-
-Basic Debugging options
-
+Contributors: tnash, magicroundabout, phegman\
+Tags: debug, die, dump, var-dumper, laravel, dev tools\
+Requires at least: 5.5.0\
+Tested up to: 5.5.0\
+License: MIT\
+License URI: https://mit-license.org/\
+\
+Basic Debugging options\
+\
 ### Description
 Multiple functions just to make debugging easier:
 
