@@ -23,6 +23,6 @@
     },
     "require": {
         "symfony/var-dumper": "5.2.*",
-        "spatie/ray": "^1.0"
+        "spatie/ray": "^1.1.0"
     }
 }
