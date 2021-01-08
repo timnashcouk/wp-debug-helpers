@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => 'dev-master',
-    'version' => 'dev-master',
+    'pretty_version' => 'dev-develop',
+    'version' => 'dev-develop',
     'aliases' => 
     array (
     ),
-    'reference' => '199094b9965d447e1c6743404584acddc02a55e4',
+    'reference' => '393eb6844afcc1978a5be770507166e451079696',
     'name' => 'peterhegman/wp-laravel-dd',
   ),
   'versions' => 
@@ -22,12 +22,12 @@
     ),
     'peterhegman/wp-laravel-dd' => 
     array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
+      'pretty_version' => 'dev-develop',
+      'version' => 'dev-develop',
       'aliases' => 
       array (
       ),
-      'reference' => '199094b9965d447e1c6743404584acddc02a55e4',
+      'reference' => '393eb6844afcc1978a5be770507166e451079696',
     ),
     'psr/container' => 
     array (
@@ -90,12 +90,12 @@
     ),
     'spatie/ray' => 
     array (
-      'pretty_version' => '1.1.0',
-      'version' => '1.1.0.0',
+      'pretty_version' => '1.3.2',
+      'version' => '1.3.2.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'f35d19e21576f8613ce517821b4c96e7420e112b',
+      'reference' => 'af979c972009ede33b1ec4cc37fb31ed7b08a7d0',
     ),
     'symfony/console' => 
     array (

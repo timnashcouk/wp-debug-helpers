@@ -19,9 +19,9 @@ class SettingsFactory
             return [];
         }
 
-        $options = include_once $configFilePath;
+        $options = include $configFilePath;
 
-        return $options;
+        return $options ?? [];
     }
 
     protected function searchConfigFiles(string $configDirectory = null): string

@@ -293,6 +293,13 @@ class Ray
         return $this->sendRequest($payload);
     }
 
+    public function pass($argument)
+    {
+        $this->send($argument);
+
+        return $argument;
+    }
+
     public function sendCustom(string $content, string $label = ''): self
     {
         $customPayload = new CustomPayload($content, $label);
@@ -321,6 +328,11 @@ class Ray
             'php_version' => phpversion(),
             'php_version_id' => PHP_VERSION_ID,
         ], $meta);
+
+        foreach ($payloads as $payload) {
+            $payload->remotePath = $this->settings->remote_path;
+            $payload->localPath = $this->settings->local_path;
+        }
 
         $request = new Request($this->uuid, $payloads, $allMeta);
 
