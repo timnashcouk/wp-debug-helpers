@@ -1,5 +1,15 @@
 <?php
 
+
+
+
+
+
+
+
+
+
+
 namespace Composer;
 
 use Composer\Semver\VersionParser;
@@ -19,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '393eb6844afcc1978a5be770507166e451079696',
+    'reference' => '7acab3ffb04a6dedd11d6d145a71d4ab8429ed4a',
     'name' => 'peterhegman/wp-laravel-dd',
   ),
   'versions' => 
@@ -40,7 +50,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '393eb6844afcc1978a5be770507166e451079696',
+      'reference' => '7acab3ffb04a6dedd11d6d145a71d4ab8429ed4a',
     ),
     'psr/container' => 
     array (
@@ -103,12 +113,12 @@ private static $installed = array (
     ),
     'spatie/ray' => 
     array (
-      'pretty_version' => '1.3.2',
-      'version' => '1.3.2.0',
+      'pretty_version' => '1.3.7',
+      'version' => '1.3.7.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'af979c972009ede33b1ec4cc37fb31ed7b08a7d0',
+      'reference' => '7cb95aa752b6a1a95e34d0457c59d95185187836',
     ),
     'symfony/console' => 
     array (

@@ -2,6 +2,26 @@
 
 All notable changes to `ray` will be documented in this file
 
+## 1.3.7 - 2020-01-09
+
+add `vendor_frame` attribute to frames
+
+## 1.3.6 - 2020-01-09
+
+- allow older version of uuid package
+
+## 1.3.5 - 2020-01-09
+
+- fix search for `$indexOfRay` to include calls from the parent directory (#80)
+
+## 1.3.4 - 2020-01-08
+
+- prevent warning if `open_basedir` is enabled
+
+## 1.3.3 - 2020-01-08
+
+- do not require Composer 2
+
 ## 1.3.2 - 2020-01-08
 
 - prevent ray from blowing up when there is no config file
