@@ -19,9 +19,9 @@ class SettingsFactory
             return [];
         }
 
-        $options = include_once $configFilePath;
+        $options = include $configFilePath;
 
-        return $options;
+        return $options ?? [];
     }
 
     protected function searchConfigFiles(string $configDirectory = null): string
@@ -32,10 +32,9 @@ class SettingsFactory
 
         $configDirectory = $configDirectory ?? getcwd();
 
-        while (is_dir($configDirectory)) {
+        while (@is_dir($configDirectory)) {
             foreach ($configNames as $configName) {
                 $configFullPath = $configDirectory.DIRECTORY_SEPARATOR.$configName;
-
                 if (file_exists($configFullPath)) {
                     return $configFullPath;
                 }
